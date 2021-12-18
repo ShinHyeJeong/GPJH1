@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Noto+Serif+KR:wght@400;700&display=swap');
+
+body{
+    margin: 0px;
+    background-color: black;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 400, 700;
+    font-size: 1rem;
+    color: white;
+}
+
+.row{
+    width: 1080px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+#menuBar{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+.menu{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+ul li{
+    display: inline-block;
+    padding-left: 100px;
+}
+
+
+
+.line{
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    width: 100%;
+}
+
+.lastLine{
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    width: 100%;
+}
+
+.lastText{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+
+#book_1{
+    width: 1080px;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#book_2{
+    width: 1080px;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+#book_3{
+    width: 1080px;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    padding-bottom: 300px;
+}
+
+.bookInfo{
+    padding-left: 50px;
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 2rem;
+}
+
+.price{
+    font-weight: 700;
+    color: red;
+}
+
+.btn_2{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: white;
+    width: 250px;
+    height: 60px;
+    background-color: gray;
+    margin-top: 100px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+}
+
+.btn_3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: white;
+    width: 250px;
+    height: 60px;
+    background-color: black;
+    margin-top: 100px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.btn_3:hover{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: white;
+    width: 250px;
+    height: 60px;
+    background-color: red;
+    margin-top: 100px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px)
+{
+    .row{
+        width: 668px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .title{
+        padding-top: 15px;
+    }
+
+    .menu{
+        padding-top: 35px;
+    }
+
+    ul li{
+        display: inline-block;
+        padding-left: 67px;
+    }
+
+    a:hover{
+        color: white;
+    }
+
+
+
+    #book_1{
+        width: 668px;
+        display: flex;
+        text-align: left;
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-bottom: 100px;
+    }
+    
+    #book_2{
+        width: 668px;
+        display: flex;
+        text-align: left;
+        justify-content: space-between;
+        padding-bottom: 100px;
+    }
+    
+    #book_3{
+        width: 668px;
+        display: flex;
+        text-align: left;
+        justify-content: space-between;
+        padding-bottom: 300px;
+    }
+
+    .bookInfo{
+        padding-left: 30px;
+        max-width: 319px;
+        font-size: 0.9rem;
+        line-height: 2.2rem;
+    }
+    
+    .price{
+        color: red;
+    }
+    
+    .btn_2{
+        font-size: 0.9rem;
+        color: white;
+        width: 250px;
+        height: 60px;
+        background-color: gray;
+        margin-top: 50px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: gray;
+    }
+    
+    .btn_3{
+        font-size: 0.9rem;
+        background-color: red;
+        margin-top: 50px;
+        border-color: red;
+    }
+    
+    .btn_3:hover{
+        font-size: 0.9rem;
+        margin-top: 50px;
+    }
+
+
+
+    video {
+        max-width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 767px)
+{
+    .row{
+        width: 640px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    #menuBar{
+        height: 90px;
+    }
+
+    .title{
+        padding-top: 0px;
+        font-size: 1.2rem;
+        padding-left: 35px;
+    }
+
+    .menu{
+        padding-top: 15px;
+        font-size: 1.4rem;
+        padding-right: 35px;
+    }
+
+    ul li{
+        padding-left: 40px;
+        float: left;
+    }    
+
+
+
+    .lastLine{
+        display: none;
+    }
+
+    .lastText{
+        font-size: 1rem;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+
+
+    #book_1{
+        width: 570px;
+        display: inline-block;
+        text-align: left;
+        padding-top: 30px;
+        padding-bottom: 150px;
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+    
+    #book_2{
+        width: 570px;
+        display: inline-block;
+        text-align: left;
+        padding-bottom: 150px;
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+    
+    #book_3{
+        width: 570px;
+        display: inline-block;
+        text-align: left;
+        padding-bottom: 300px;
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+    
+    .bookInfo{
+        max-width: 100%;
+        padding-left: 0px;
+        font-size: 1.3rem;
+        line-height: 2.9rem;
+    }
+    
+    .btn_2{
+        font-size: 1.3rem;
+        width: 300px;
+        height: 80px;
+        margin-top: 50px;
+    }
+    
+    .btn_3{
+        font-size: 1.3rem;
+        width: 300px;
+        height: 80px;
+        background-color: red;
+        margin-top: 50px;
+        border-color: red;
+    }
+
+    .btn_3:hover{
+        font-size: 1.3rem;
+        width: 300px;
+        height: 80px;
+        background-color: red;
+        margin-top: 50px;
+        border-color: red;
+    }
+
+
+
+
+    video {
+        width: 100%;
+    }
+}
